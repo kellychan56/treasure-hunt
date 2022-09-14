@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="https://cdn.dribbble.com/users/1810157/screenshots/4542088/media/aa4b283c425a2d3a9ce5b20a443e70a4.jpg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity Stone Hunt</title>
+    <link rel="stylesheet" href="hunt.css">
+</head>
+<body>
+    <h1> Infinity Stone Hunt </h1>
+    <br>
+    <h2> Find the Infinity Stone before Thanos!! </h2>
+    <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/infinity-gauntlet-nikita-abakumov.jpg" alt="Infinity Gaunlet" "" width="300" height="375">
+<div class="rules">
+    <ul>
+        <li>Travel through the MCU to search for the Infinity Stone.</li>
+        <li>If you run into Thanos, you fight against him and lose!</li>
+        <li>If you find the Infinity Stone first, you win!</li>
+    </ul>
+</div>
+    <br>
+    <div id="hunt">
+        <table id="game" border= 4px>
+            <tr>
+                <td class= "stark" id="0" onclick="treasure(0)">Stark Industries</td>
+                <td class= "apartment" id="1" onclick="treasure(1)">Aunt May's Apartment</td>
+                <td class= "asgard" id="2" onclick="treasure(2)">Asgard</td>
+                <td class= "new-york" id="3" onclick="treasure(3)">New York</td>
+            </tr>
+            <tr>
+                <td class= "sokovia" id="4" onclick="treasure(4)">Sokovia</td>
+                <td class= "westview" id="5" onclick="treasure(5)">Westview</td>
+                <td class= "wakanda" id="6" onclick="treasure(6)">Wakanda</td>
+                <td class= "nidavellir" id="7" onclick="treasure(7)">Nidavellir</td>
+            </tr>
+            <tr>
+                <td class= "titan" id="8" onclick="treasure(8)">Titan</td>
+                <td class= "vormir" id="9" onclick="treasure(9)">Vormir</td>
+                <td class= "xandar" id="10" onclick="treasure(10)">Xandar</td>
+                <td class= "morag" id="11" onclick="treasure(11)">Morag</td>
+            </tr>
+            <tr>
+                <td class= "quantum realm" id="12" onclick="treasure(12)">Quantum Realm</td>
+                <td class= "kamar-taj" id="13" onclick="treasure(13)">Kamar-Taj</td>
+                <td class= "sanctum" id="14" onclick="treasure(14)">Sanctum Sanctorum</td>
+                <td class= "sakaar" id="15" onclick="treasure(15)">Sakaar</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <button type="button" onclick="location.reload()">Restart Game</button>
+    <br>
+    <br>
+    <footer>Luis and Kelly |
+        <a href="https://www.marvel.com/"> Go to MCU </a>
+    </footer>
+    <br>
+    <script type="text/javascript" src="treasurehunt.js"></script>
+</body>
+
+</html>

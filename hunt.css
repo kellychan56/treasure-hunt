@@ -1,0 +1,120 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/3622865.jpg);
+    background-size:cover;
+}
+.rules {
+    border: 2px solid rgb(204, 112, 84);
+    border-radius: 25px;
+    width: 500px;
+    background-color: rgba(204, 112, 84, 0.655);
+    margin-left: 374px;
+}
+* {
+    color:white;
+    text-align: center;
+}
+#game {
+    border: 4px solid rgb(204, 112, 84);
+    background-color: black;
+    width: 700px;
+    height: 500px;
+    table-layout: fixed;
+}
+#hunt{
+    display: flex;
+    justify-content:center
+}
+ul li{
+    list-style-type: none;
+   }
+img {border-radius: 50%;}
+button {
+    width: 125px ; height: 50px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(243, 112, 95);
+    border-radius: 10px;
+}
+td{
+    font-weight: bold;
+    ;
+}
+.stark{
+    background-image: url(https://static.wikia.nocookie.net/marvelcinematicuniverse/images/5/56/Stark_Tower_Infobox.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.apartment{
+    background-image: url(https://static.wikia.nocookie.net/marvelcinematicuniverse/images/4/4e/Parker_Residence_%28Spider-Man_Homecoming%29.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.asgard{
+    background-image: url(https://static.wikia.nocookie.net/marvelmovies/images/4/4f/AsgardDarkWorld.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.new-york{
+    background-image: url(https://static.wikia.nocookie.net/marveldatabase/images/3/37/New_York_City_from_Marvel%27s_Spider-Man_%28video_game%29_001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.sokovia{
+    background-image: url(https://static.wikia.nocookie.net/marvelcinematicuniverse/images/d/d0/Sokovia-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.westview{
+    background-image: url(https://static.wikia.nocookie.net/marvelcinematicuniverse/images/3/34/Welcome_to_Westview.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.wakanda{
+    background-image: url(https://www.sideshow.com/wp/wp-content/uploads/2020/05/wakanda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.nidavellir{
+    background-image: url(https://static.wikia.nocookie.net/marvelcinematicuniverse/images/f/fb/Infinity_War_266.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.titan {
+    background-image: url(https://static.wikia.nocookie.net/marvelcinematicuniverse/images/5/54/AW_1_Trailer_pic.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.vormir       {
+    background-image: url(https://pbs.twimg.com/media/D6QmkNLUYAAhY-T.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.xandar {
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/marvel-studios-cinematic-universe/7/71/Xandar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.morag {
+    background-image: url(https://static.wikia.nocookie.net/marvelmovies/images/c/c2/Morag_GotG.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.quantum {
+    background-image: url(https://nerdist.com/wp-content/uploads/2019/01/Wasteland-quantum-realm.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.kamar-taj {
+    background-image: url(https://static.wikia.nocookie.net/marvelcinematicuniverse/images/2/2e/Doctor_Strange_Final_Trailer_07.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.sanctum {
+    background-image: url(https://insidethemagic.net/wp-content/uploads/2021/09/doctor-strange-new-york-sanctum-sanctorum-set-marvel-550x233.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.sakaar{
+    background-image: url(https://static.wikia.nocookie.net/disney/images/4/4d/Sakaar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
